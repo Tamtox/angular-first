@@ -1,9 +1,23 @@
 .app {
   min-height: 100vh;
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    .header__navigation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1.2rem;
+      color: blue;
+    }
+  }
   .wrapper {
-    width: calc(min(110rem, 100%));
+    width: calc(min(90rem, 100%));
     min-height: 100vh;
     margin: auto;
-    padding: 4rem 0rem 0 0rem;
+    padding: 4rem 0 0 0;
   }
 }

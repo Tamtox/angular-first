@@ -1,10 +1,12 @@
 <div class="app">
-  <div class="wrapper">
-    <h1>{{ title }}</h1>
-    <nav>
+  <div class="header">
+    <h1 class="header__title">{{ title }}</h1>
+    <nav class="header__navigation">
       <a routerLink="/dashboard">Dashboard</a>
       <a routerLink="/heroes">Heroes</a>
     </nav>
+  </div>
+  <div class="wrapper">
     <router-outlet></router-outlet>
     <app-messages></app-messages>
   </div>
