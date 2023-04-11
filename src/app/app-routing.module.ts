@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'heroes', component: HeroesComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'detail/:id', component: DetailedHeroComponent },
+  // {path:'search'}
 ];
 
 @NgModule({
