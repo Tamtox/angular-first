@@ -1,0 +1,11 @@
+.hero__list__item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  box-shadow: 1px 1px 3px black;
+}
+.selected {
+  border: 2px dotted black;
+}

@@ -1,0 +1,9 @@
+.hero__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, min(33rem, 100%));
+  grid-auto-rows: 3.5rem;
+  justify-content: center;
+  padding: 1rem 0 7vh 0;
+  gap: 1rem;
+  margin: auto;
+}

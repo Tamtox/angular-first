@@ -1,0 +1,9 @@
+<h2>All heroes</h2>
+<div class="hero__list">
+  <app-hero
+    *ngFor="let hero of heroes"
+    [hero]="hero"
+    [class.selected]="hero === selectedHero"
+    [ngClass]="hero.name"
+  ></app-hero>
+</div>
